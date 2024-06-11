@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cloud-payment-service
+    ####Spring Cloud Consul for Service Discovery
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+      config:
+        #配置文件名称和环境的连接符，这里修改为- ,例如 ${spring.application.name}-${spring.profiles.active}
+        profile-separator: '-' # default value is ","，we update '-'
+        format: YAML
+        # 监听等待时间，默认55秒
+        watch:
+          wait-time: 10
+
+# config/cloud-payment-service/data
+#       /cloud-payment-service-dev/data
+#       /cloud-payment-service-prod/data
