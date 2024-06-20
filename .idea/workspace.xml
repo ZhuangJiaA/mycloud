@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d91741-c96a-4638-9814-f4e47370e3fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/southpaw/cloud/controller/OrderGateWayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/southpaw/cloud/config/MyRoutePredicateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/southpaw/cloud/controller/PayGateWayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/southpaw/cloud/apis/PayFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/southpaw/cloud/apis/PayFeignApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/southpaw/cloud/config/MyGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/southpaw/cloud/config/MyGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/southpaw/cloud/controller/PayGateWayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/southpaw/cloud/controller/PayGateWayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/southpaw/cloud/controller/PayGateWayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/southpaw/cloud/controller/PayGateWayController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,7 @@
       <workItem from="1718176050339" duration="27000" />
       <workItem from="1718609090974" duration="619000" />
       <workItem from="1718702016482" duration="9000" />
-      <workItem from="1718706024532" duration="19877000" />
+      <workItem from="1718706024532" duration="26245000" />
     </task>
     <servers />
   </component>
