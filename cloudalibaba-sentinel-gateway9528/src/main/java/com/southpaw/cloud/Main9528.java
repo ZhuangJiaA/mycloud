@@ -3,17 +3,11 @@ package com.southpaw.cloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
-/**
- * @auther zzyy
- * @create 2023-11-23 17:15
- */
-@EnableDiscoveryClient
 @SpringBootApplication
-@EnableFeignClients
-public class Main83 {
+@EnableDiscoveryClient
+public class Main9528 {
     public static void main(String[] args) {
-        SpringApplication.run(Main83.class, args);
+        SpringApplication.run(Main9528.class, args);
     }
 }
